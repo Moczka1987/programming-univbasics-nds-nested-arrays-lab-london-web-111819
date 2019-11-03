@@ -17,15 +17,11 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  array = [
-ENNET_HOUSE,
-ENFIELD_TENNIS_ACADEMY
-]
+  array = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 end
 
 def array_literal_matrix
- array = [
- ENNET_HOUSE.sort
+ array = [ ENNET_HOUSE.sort
  ENFIELD_TENNIS_ACADEMY.sort 
 ]
 end
